@@ -23,7 +23,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
 	exe=".app"
 fi
 
-export PATH=$MY_QT_PATH:$PATH
+#export PATH=$MY_QT_PATH:$PATH
 
 if [ ! -e "$MY_QT_PATH" ]; then
 	echo " ---------------------------------"
